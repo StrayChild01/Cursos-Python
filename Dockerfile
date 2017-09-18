@@ -9,10 +9,9 @@ LABEL 8888.port.launchbot.io="Start Tutorial"
 # Set the working directory
 WORKDIR /usr/workdir
 
-# Add files
-
-# Expose the notebook port
-EXPOSE 8888
+# Install correct versions
+COPY requirements.txt /usr/workdir/requirements.txt
+RUN pip install -r requirements.txt
 
 # Add files
 COPY Introduction_to_Pandas.ipynb /usr/workdir/Introduction_to_Pandas.ipynb
@@ -20,6 +19,9 @@ COPY Introduction_to_Pandas_soln.ipynb /usr/workdir/Introduction_to_Pandas_soln.
 COPY data/central-park-raw.csv /usr/workdir/data/central-park-raw.csv
 COPY data/tao-all2.dat.gz /usr/workdir/data/tao-all2.dat.gz
 COPY data/vehicles.csv.zip /usr/workdir/data/vehicles.csv.zip
+
+# Expose the notebook port
+EXPOSE 8888
 
 # Start the notebook server
 CMD jupyter notebook --no-browser --port 8888 --ip=* --NotebookApp.token='' --NotebookApp.disable_check_xsrf=True
