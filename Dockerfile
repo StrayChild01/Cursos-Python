@@ -16,9 +16,7 @@ RUN pip install -r requirements.txt
 # Add files
 COPY Introduction_to_Pandas.ipynb /usr/workdir/Introduction_to_Pandas.ipynb
 COPY Introduction_to_Pandas_soln.ipynb /usr/workdir/Introduction_to_Pandas_soln.ipynb
-COPY data/central-park-raw.csv /usr/workdir/data/central-park-raw.csv
-COPY data/tao-all2.dat.gz /usr/workdir/data/tao-all2.dat.gz
-COPY data/vehicles.csv.zip /usr/workdir/data/vehicles.csv.zip
+COPY data /usr/workdir/
 
 # Expose the notebook port
 EXPOSE 8888
