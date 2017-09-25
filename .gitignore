@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+.ipython/
+.local/
+Solutions/.ipynb_checkpoints/
+Solutions/.ipynb_checkpoints/01_introduction_get_inspect_tweak_data_soln-checkpoint.ipynb
+Solutions/.ipynb_checkpoints/02_basic_stats_filtering_nans_soln-checkpoint.ipynb
+Solutions/.ipynb_checkpoints/03_grouping_pivoting_soln-checkpoint.ipynb
+Solutions/.ipynb_checkpoints/04_machine_learning_soln-checkpoint.ipynb
+Solutions/.ipynb_checkpoints/05_grouping_pivoting_revisited_soln-checkpoint.ipynb
+create_jh_image/
+.jupyter/
