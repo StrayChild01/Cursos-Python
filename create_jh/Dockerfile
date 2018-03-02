@@ -2,7 +2,7 @@ FROM us.gcr.io/jupyterhub-170614/0636920105978:v3.0
 
 USER root
 # notebook and ipykernel should already be installed. now just need jupyterhub
-RUN pip install --upgrade --no-cache-dir jupyterhub==0.7.2
+RUN pip install --upgrade --no-cache-dir jupyterhub==0.8.1
 
 USER jovyan
 
