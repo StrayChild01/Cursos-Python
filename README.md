@@ -1,5 +1,5 @@
 
-This is a repo for the course Explore, visualize, and predict using pandas and Jupyter by Matt Harrison.
+This is a repo for the courses "Getting started with Pandas" and "Mastering pandas" by Matt Harrison. Prior to June 2018, this was a two-day course entitled, "Explore, visualize, and predict using pandas and Jupyter".
 
 # Start Docker
 
