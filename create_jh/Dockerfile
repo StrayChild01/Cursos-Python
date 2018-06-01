@@ -1,8 +1,8 @@
 FROM us.gcr.io/jupyterhub-170614/0636920179825:v1.0
 
 USER root
-# notebook and ipykernel should already be installed. now just need jupyterhub
-RUN pip install --upgrade --no-cache-dir jupyterhub==0.8.1
+# notebook and ipykernel should already be installed. now just need jupyterhub and revert tornado due to JupyterHub issue
+RUN pip install --upgrade --no-cache-dir jupyterhub==0.8.1 tornado==4.5.3
 
 USER jovyan
 
