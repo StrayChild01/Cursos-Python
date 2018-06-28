@@ -1,4 +1,4 @@
-FROM us.gcr.io/jupyterhub-170614/0636920179825:v1.0
+FROM us.gcr.io/jupyterhub-170614/0636920179825:v2.0
 
 USER root
 # notebook and ipykernel should already be installed. now just need jupyterhub and revert tornado due to JupyterHub issue
