@@ -1,5 +1,5 @@
 # Temas varios en Python
-### Este repositorio tiene los contenidos de los diferentes cursos de O'Reilly sobre algunos temas con Python.
+### Este repositorio tiene algunos cursos de O'Reilly sobre Python.
 
 - [Getting started with Pandas and Mastering pandas](Pandas/README.md)
   - [Explore, Visualize, and Predict using Pandas & Jupyter](Pandas/01_introduction_get_inspect_tweak_data.ipynb)
