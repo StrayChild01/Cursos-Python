@@ -14,3 +14,5 @@
   - [PCA](ML+Python_Clustering/Class/02-PCA.ipynb)
   - [Clustering](ML+Python_Clustering/Class/Clustering.ipynb)
   - [Time Series](ML+Python_Clustering/Class/04-TimeSeries.ipynb)
+- [Essential Machine Learning and Exploratory Data Analysis with Python and Jupyter Notebook](Essential_ML+Python/notebooks/)
+  
