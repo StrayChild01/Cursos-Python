@@ -1,0 +1,3 @@
+ggplot
+cufflinks
+plotly==2.7.0
